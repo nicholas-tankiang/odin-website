@@ -17,10 +17,24 @@ body{
     flex-direction: column;
 }
 
+.main-title{
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
 .main-content img{
     object-fit: cover;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.text{
+    max-width: 150px;
 }
 
 ul{
