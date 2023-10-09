@@ -3,16 +3,32 @@ body{
     flex-direction: column;
 }
 
-.header{
+ul{
     display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+.header, .footer{
+    display: flex;
+}
+
+.header{
     justify-content: space-between;
 }
 
-.section-intro{
+.footer{
+    justify-content: center;
+    gap: 16px;
+}
+
+.section-container{
     display: flex;
 }
 
-.intro-container{
+.container{
     display: flex;
     flex-direction: column;
 }
@@ -37,10 +53,14 @@ body{
     max-width: 150px;
 }
 
-ul{
+.section-main-quote{
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 16px
-  }
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-source{
+    display: flex;
+    margin-left: auto;
+}
+
