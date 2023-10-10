@@ -16,6 +16,33 @@ ul{
 
 .header, .footer{
     display: flex;
+    /* background-color: #1F2937; */
+}
+
+.big-text{
+    font-size: 48px;
+    font-weight:800;
+    /* color: #F9FAF8; */
+}
+
+.head-logo{
+    font-size: 24px;
+    /* color: #F9FAF8; */
+}
+
+.top-links{
+    font-size: 18px;
+    /* color: #E5E7EB; */
+}
+
+button{
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .header{
@@ -25,7 +52,6 @@ ul{
 .footer{
     justify-content: center;
     gap: 8px;
-
 }
 
 .section-container{
