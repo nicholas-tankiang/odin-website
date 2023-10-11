@@ -173,7 +173,7 @@ a{
     background-color: #3882F6;
     padding: 10px 30px;
     border-radius: 8px;
-    border-color: #F9FAF8;
+    border: 2px solid #F9FAF8;
 
     font-weight: bold;
     color: #F9FAF8;
